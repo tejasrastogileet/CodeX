@@ -1,0 +1,7 @@
+project_id = "lrgqffozuiwpguvsyfvm"
+
+[functions.recipedb-proxy]
+verify_jwt = false
+
+[functions.flavordb-proxy]
+verify_jwt = false

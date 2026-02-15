@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary colors - AaharMitra brand */
+    --background: 0 0% 98%;
+    --foreground: 220 13% 20%;
+
+    /* Card styling */
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 20%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 20%;
+
+    /* Primary - Deep Green (Nutrition/Health) */
+    --primary: 142 71% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Warm Orange (Energy/Joy) */
+    --secondary: 38 92% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted tones */
+    --muted: 220 13% 91%;
+    --muted-foreground: 220 8% 50%;
+
+    /* Accent */
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Input */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 142 71% 35%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 220 13% 20%;
+    --sidebar-primary: 142 71% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 38 92% 50%;
+    --sidebar-accent-foreground: 0 0% 25%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 142 71% 35%;
+
+    /* Health status indicators */
+    --success: 142 71% 35%;
+    --warning: 38 92% 50%;
+    --danger: 0 84% 60%;
+    --info: 215 97% 47%;
+
+    /* BMI categories */
+    --bmi-severe: 0 84% 60%;
+    --bmi-underweight: 38 92% 50%;
+    --bmi-normal: 142 71% 35%;
+    --bmi-overweight: 38 92% 45%;
+  }
+
+  .dark {
+    --background: 220 20% 11%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 20% 15%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 20% 15%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 142 71% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 38 92% 50%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 220 13% 22%;
+    --muted-foreground: 220 8% 65%;
+
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 22%;
+    --input: 220 13% 22%;
+    --ring: 142 71% 45%;
+
+    --sidebar-background: 220 20% 13%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 142 71% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 38 92% 50%;
+    --sidebar-accent-foreground: 0 0% 12%;
+    --sidebar-border: 220 13% 22%;
+    --sidebar-ring: 142 71% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Nunito', 'Segoe UI', sans-serif;
+  }
+}
+
+ 
